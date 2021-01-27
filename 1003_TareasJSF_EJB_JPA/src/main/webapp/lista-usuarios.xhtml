@@ -28,7 +28,6 @@
                 <h:column>
                     <h:commandLink value="ver detalle"
                                      action="#{gestionUsuariosMB.buscarUsuario(usuario.email)}" >
-                        <!--f:ajax event="click" execute="@none" render="formDetalle" /-->
                     </h:commandLink>
                      - 
                     <h:commandLink value="borrar"
@@ -43,9 +42,7 @@
                        <h:commandButton value="Buscar" 
                                         action="#{gestionUsuariosMB.buscarUsuarioPorEmailEntrada()}" />
             </div>
-     
-            
-            
+   
         </h:form>
         
         <h2>Datos del Usuario</h2>
