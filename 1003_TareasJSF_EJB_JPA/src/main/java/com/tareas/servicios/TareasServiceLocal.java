@@ -9,5 +9,6 @@ import javax.ejb.Local;
 public interface TareasServiceLocal {
     
     public Collection<Tarea> getTareas(Integer idUsuario, String estado);
+    public void alta(Tarea tarea);
     
 }

@@ -22,4 +22,10 @@ public class TareasService implements TareasServiceLocal {
         return query.getResultList();
     }
 
+    @Override
+    public void alta(Tarea tarea) {
+       em.persist(tarea);
+    }
+
+    
 }
